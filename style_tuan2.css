@@ -1,0 +1,90 @@
+/* Thiết lập chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Liên kết trong navigation */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0645ad;
+    font-weight: bold;
+}
+
+/* Hình ảnh trong navigation */
+nav img {
+    width: 10%;
+}
+
+/* Nội dung chính */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Danh sách */
+/*
+li {
+    color: green;
+}
+*/
+
+/* Lưới hai cột */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Hình ảnh bên trong grid */
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Hình ảnh */
+img {
+    max-width: 100%;
+}
+
+/* Figure */
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+    margin-top: 30px;
+}
